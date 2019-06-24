@@ -1,4 +1,4 @@
-#include <stdio.h>
+　　　　　　　　　　　　　　#include <stdio.h>
 
 int n;
 int k;
@@ -11,6 +11,8 @@ int main(){
   scanf("%d%d", &n, &k);
   for(i = 0; i < n; i++){
       scanf("%d", &A[i]); }
+    
+    
        lb = -1 ;
        ub = n ;
       while(ub-lb>1){
